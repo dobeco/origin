@@ -10,4 +10,14 @@ git init
 ```
 git remote add origin url
 ```
-4. 拉取
+4. 拉取代码到本地
+```
+git pull origin master
+```
+5.创建文件并提交
+```
+touch a.text
+git add a.text
+git commit -m "aa"
+git push -u origin master
+```
