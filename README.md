@@ -1,6 +1,6 @@
 # origin
 关联远程仓库
-## 第一步
+## 步骤
 1. 本地新建文件夹
 ```
 mkdir origin
@@ -17,7 +17,7 @@ git remote add origin url
 ```
 git pull origin master
 ```
-5.创建文件并提交
+5. 创建文件并提交
 ```
 touch a.text
 git add a.text
